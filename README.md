@@ -1,2 +1,2 @@
 # My-portfolio
-A personal portfolio website showcasing my skills, projects, education, achievements, and journey as a Computer Science student.
+Personal portfolio website built to showcase my projects, technical skills, achievements, and learning journey in Computer Science.
