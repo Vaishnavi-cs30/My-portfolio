@@ -1,0 +1,117 @@
+/* Basic settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f5f7fb;
+    color: #222;
+}
+
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+}
+
+nav h2 {
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+
+/* Common section styling */
+section {
+    padding: 80px 10%;
+    min-height: 60vh;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+/* Home */
+#home {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#home p:first-child {
+    font-size: 20px;
+}
+
+#home h1 {
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+#home h2 {
+    font-size: 30px;
+}
+
+
+/* Skills */
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+}
+
+#skills li {
+    background: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+
+/* Projects */
+#projects div {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+
+/* Links */
+a {
+    color: #3157d5;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #ffffff;
+}
